@@ -1,7 +1,6 @@
 {
     "flags": [
         "-std=gnu11",
-        "-DMBED_DEBUG",
         "-DMBED_RAM1_SIZE=0x8000",
         "-DMBED_RAM1_START=0x2007c000",
         "-DMBED_RAM_SIZE=0x8000",
@@ -10,7 +9,7 @@
         "-DMBED_ROM_START=0x0",
         "-DMBED_TRAP_ERRORS_ENABLED=1",
         "-MMD",
-        "-Og",
+        "-Os",
         "-Wall",
         "-Wextra",
         "-Wno-missing-field-initializers",
@@ -23,7 +22,7 @@
         "-fno-exceptions",
         "-fomit-frame-pointer",
         "-funsigned-char",
-        "-g3",
+        "-g",
         "-mcpu=cortex-m3",
         "-mthumb"
     ],

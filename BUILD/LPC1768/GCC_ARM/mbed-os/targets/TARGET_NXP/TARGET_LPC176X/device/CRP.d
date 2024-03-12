@@ -1,4 +1,5 @@
 BUILD\LPC1768\GCC_ARM\mbed-os\targets\TARGET_NXP\TARGET_LPC176X\device\CRP.o: \
- mbed-os\targets\TARGET_NXP\TARGET_LPC176X\device\CRP.c \
- BUILD/LPC1768/GCC_ARM\mbed_config.h mbed-os/platform/mbed_toolchain.h \
- mbed-os/platform/mbed_preprocessor.h
+ F:\prj_soft\mbed-studio\24D_USonicEcho_test\mbed-os\targets\TARGET_NXP\TARGET_LPC176X\device\CRP.c \
+ F:\prj_soft\mbed-studio\24D_USonicEcho_test\BUILD\LPC1768\GCC_ARM\mbed_config.h \
+ F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/mbed_toolchain.h \
+ F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/mbed_preprocessor.h

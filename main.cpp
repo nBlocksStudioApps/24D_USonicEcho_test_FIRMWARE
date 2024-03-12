@@ -5,7 +5,7 @@
  *                         www.n-blocks.net                         *
  * ================================================================ */
 #include "nlib\nblocks.h"
-#include "nlib\BSP\bsp.h"
+// #include "nlib\BSP\bsp.h"
 // Custom nodes:
 #include "nlib\Ticker\ticker.h"
 #include "nlib\USonicEcho\USonicEcho.h"
@@ -15,7 +15,7 @@
 
 // -*-*- List of node objects -*-*-
 nBlock_Ticker            nb_nBlockNode0_Ticker       (1000);
-nBlock_USonicEcho        nb_nBlockNode1_USonicEcho   (p18, 58);
+nBlock_USonicEcho        nb_nBlockNode1_USonicEcho   (p17, 58);
 nBlock_StringFormat      nb_nBlockNode2_StringFormat ("Distance = %d cm\n ");
 nBlock_StringSerial      nb_nBlockNode3_StringSerial (USBTX, USBRX);
 nBlock_StringFormat      nb_nBlockNode4_StringFormat ("Distance=%d cm \r ");
