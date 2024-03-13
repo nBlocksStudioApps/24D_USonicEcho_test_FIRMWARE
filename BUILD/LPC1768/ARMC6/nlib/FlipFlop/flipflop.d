@@ -1,5 +1,6 @@
-BUILD\LPC1768\ARMC6\main.o: main.cpp BUILD\LPC1768\ARMC6\mbed_config.h \
-  nlib\nblocks.h mbed-os\mbed.h mbed-os\platform\mbed_version.h \
+BUILD\LPC1768\ARMC6\nlib\FlipFlop\flipflop.o: nlib\FlipFlop\flipflop.cpp \
+  BUILD\LPC1768\ARMC6\mbed_config.h nlib\FlipFlop\flipflop.h \
+  mbed-os\mbed.h mbed-os\platform\mbed_version.h \
   mbed-os\platform\mbed_toolchain.h mbed-os\platform\mbed_preprocessor.h \
   mbed-os\platform\platform.h mbed-os\platform\mbed_retarget.h \
   mbed-os\platform\mbed_toolchain.h \
@@ -72,11 +73,4 @@ BUILD\LPC1768\ARMC6\main.o: main.cpp BUILD\LPC1768\ARMC6\mbed_config.h \
   mbed-os\platform\ScopedRamExecutionLock.h \
   mbed-os\platform\mbed_stats.h mbed-os\platform\Callback.h \
   mbed-os\platform\FunctionPointer.h mbed-os\platform\ScopedLock.h \
-  nlib\KernelNode\nworkbench.h nlib\KernelNode\fifo.h \
-  nlib\Ticker\ticker.h nlib\KernelNode\nworkbench.h \
-  nlib\USonicEcho\USonicEcho.h nlib\StringFormat\stringformat.h \
-  nlib\StringSerial\stringserial.h nlib\OLEDisplay\OLEDisplay.h \
-  nlib\OLEDisplay\Adafruit_GFX\Adafruit_SSD1306.h \
-  nlib\OLEDisplay\Adafruit_GFX\Adafruit_GFX.h \
-  nlib\OLEDisplay\Adafruit_GFX\Adafruit_GFX_Config.h \
-  nlib\OLEDisplay\Adafruit_GFX\Adafruit_GFX.h
+  nlib\KernelNode\nworkbench.h nlib\KernelNode\fifo.h

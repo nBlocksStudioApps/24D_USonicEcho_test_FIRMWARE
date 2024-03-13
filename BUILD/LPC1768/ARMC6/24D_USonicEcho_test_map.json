@@ -57,21 +57,21 @@
     {
         "module": "main.o",
         "size": {
-            ".text": 980,
+            ".text": 860,
             ".data": 0,
-            ".bss": 2132,
-            ".text-delta": 120,
+            ".bss": 2004,
+            ".text-delta": 0,
             ".data-delta": 0,
-            ".bss-delta": 128
+            ".bss-delta": 0
         }
     },
     {
         "module": "mbed-os\\drivers",
         "size": {
-            ".text": 3608,
+            ".text": 3544,
             ".data": 0,
             ".bss": 12,
-            ".text-delta": 64,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -112,10 +112,21 @@
     {
         "module": "nlib\\Blink",
         "size": {
-            ".text": 402,
+            ".text": 68,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": 402,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "nlib\\FlipFlop",
+        "size": {
+            ".text": 4,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -123,7 +134,7 @@
     {
         "module": "nlib\\KernelNode",
         "size": {
-            ".text": 660,
+            ".text": 656,
             ".data": 12,
             ".bss": 88,
             ".text-delta": 0,
@@ -137,7 +148,7 @@
             ".text": 4937,
             ".data": 0,
             ".bss": 0,
-            ".text-delta": -68,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
@@ -188,10 +199,10 @@
     },
     {
         "summary": {
-            "static_ram": 7444,
-            "static_ram_delta": 128,
-            "total_flash": 39555,
-            "total_flash_delta": 518
+            "static_ram": 7316,
+            "static_ram_delta": 0,
+            "total_flash": 39037,
+            "total_flash_delta": 0
         }
     }
 ]
