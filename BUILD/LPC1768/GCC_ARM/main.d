@@ -1,7 +1,7 @@
 BUILD\LPC1768\GCC_ARM\main.o: \
  F:\prj_soft\mbed-studio\24D_USonicEcho_test\main.cpp \
  F:\prj_soft\mbed-studio\24D_USonicEcho_test\BUILD\LPC1768\GCC_ARM\mbed_config.h \
- F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\nblocks.h \
+ F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\KernelNode\nblocks.h \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/mbed.h \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/mbed_version.h \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/mbed_toolchain.h \
@@ -138,8 +138,9 @@ BUILD\LPC1768\GCC_ARM\main.o: \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/Callback.h \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/FunctionPointer.h \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/mbed-os/platform/ScopedLock.h \
- F:/prj_soft/mbed-studio/24D_USonicEcho_test/nlib/KernelNode/nworkbench.h \
- F:/prj_soft/mbed-studio/24D_USonicEcho_test/nlib/KernelNode/fifo.h \
+ F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\KernelNode\nworkbench.h \
+ F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\KernelNode\fifo.h \
+ F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\BSP\bsp.h \
  F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\Ticker\ticker.h \
  F:/prj_soft/mbed-studio/24D_USonicEcho_test/nlib/KernelNode/nworkbench.h \
  F:\prj_soft\mbed-studio\24D_USonicEcho_test\nlib\USonicEcho\USonicEcho.h \

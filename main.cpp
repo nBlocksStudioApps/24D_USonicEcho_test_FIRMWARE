@@ -4,8 +4,8 @@
  *                                                                  *
  *                         www.n-blocks.net                         *
  * ================================================================ */
-#include "nlib\nblocks.h"
-// #include "nlib\BSP\bsp.h"
+#include "nlib\KernelNode\nblocks.h"
+#include "nlib\BSP\bsp.h"
 // Custom nodes:
 #include "nlib\Ticker\ticker.h"
 #include "nlib\USonicEcho\USonicEcho.h"
